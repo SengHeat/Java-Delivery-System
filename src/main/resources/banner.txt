@@ -1,0 +1,75 @@
+${AnsiColor.BRIGHT_CYAN}
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║   ██████╗ ███████╗██╗     ██╗██╗   ██╗███████╗██████╗ ██╗   ██╗            ║
+║   ██╔══██╗██╔════╝██║     ██║██║   ██║██╔════╝██╔══██╗╚██╗ ██╔╝            ║
+║   ██║  ██║█████╗  ██║     ██║██║   ██║█████╗  ██████╔╝ ╚████╔╝             ║
+║   ██║  ██║██╔══╝  ██║     ██║╚██╗ ██╔╝██╔══╝  ██╔══██╗  ╚██╔╝              ║
+║   ██████╔╝███████╗███████╗██║ ╚████╔╝ ███████╗██║  ██║   ██║               ║
+║   ╚═════╝ ╚══════╝╚══════╝╚═╝  ╚═══╝  ╚══════╝╚═╝  ╚═╝   ╚═╝               ║
+║                                                                              ║
+║              ${AnsiColor.BRIGHT_YELLOW}🚚 SMART DELIVERY MANAGEMENT SYSTEM 🚚${AnsiColor.BRIGHT_CYAN}                     ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+${AnsiColor.BRIGHT_GREEN}
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  ${AnsiColor.BRIGHT_WHITE}APPLICATION INFORMATION${AnsiColor.BRIGHT_GREEN}                                                     │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  📌 Name           : Delivery Management System                              │
+│  🔖 Version        : ${AnsiColor.BRIGHT_YELLOW}1.0.0${AnsiColor.BRIGHT_GREEN}                                                      │
+│  🍃 Spring Boot    : ${AnsiColor.BRIGHT_YELLOW}${spring-boot.version}${AnsiColor.BRIGHT_GREEN}                                            │
+│  🌍 Environment    : ${AnsiColor.BRIGHT_YELLOW}${spring.profiles.active:default}${AnsiColor.BRIGHT_GREEN}                                 │
+│  🔌 Port           : ${AnsiColor.BRIGHT_YELLOW}${server.port}${AnsiColor.BRIGHT_GREEN}                                                    │
+│  🗄️  Database       : ${AnsiColor.BRIGHT_YELLOW}PostgreSQL${AnsiColor.BRIGHT_GREEN}                                                   │
+│  🏗️  Architecture   : ${AnsiColor.BRIGHT_YELLOW}Domain-Driven Design (DDD)${AnsiColor.BRIGHT_GREEN}                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+${AnsiColor.BRIGHT_MAGENTA}
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  ${AnsiColor.BRIGHT_WHITE}CORE FEATURES${AnsiColor.BRIGHT_MAGENTA}                                                               │
+├──────────────────────────────────────────────────────────────────────────────┤
+│                                                                              │
+│  ${AnsiColor.BRIGHT_CYAN}📦 ORDER MANAGEMENT${AnsiColor.BRIGHT_MAGENTA}      │  ${AnsiColor.BRIGHT_CYAN}🚗 DRIVER MANAGEMENT${AnsiColor.BRIGHT_MAGENTA}                   │
+│     • Create & Track Orders      │     • Driver Registration                │
+│     • Order Status Updates       │     • Vehicle Management                 │
+│     • Multi-item Support         │     • Real-time Availability             │
+│                                  │                                          │
+│  ${AnsiColor.BRIGHT_CYAN}📍 REAL-TIME TRACKING${AnsiColor.BRIGHT_MAGENTA}    │  ${AnsiColor.BRIGHT_CYAN}💳 PAYMENT PROCESSING${AnsiColor.BRIGHT_MAGENTA}                  │
+│     • Live Location Updates      │     • Stripe Integration                 │
+│     • Route Optimization         │     • PayPal Support                     │
+│     • ETA Calculations           │     • Secure Transactions                │
+│                                  │                                          │
+│  ${AnsiColor.BRIGHT_CYAN}🔔 NOTIFICATIONS${AnsiColor.BRIGHT_MAGENTA}         │  ${AnsiColor.BRIGHT_CYAN}🔐 SECURITY${AnsiColor.BRIGHT_MAGENTA}                            │
+│     • Email Alerts               │     • JWT Authentication                 │
+│     • SMS Notifications          │     • Personal Access Tokens             │
+│     • Push Notifications         │     • Role-based Access Control          │
+│                                                                              │
+└──────────────────────────────────────────────────────────────────────────────┘
+${AnsiColor.BRIGHT_BLUE}
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  ${AnsiColor.BRIGHT_WHITE}QUICK LINKS${AnsiColor.BRIGHT_BLUE}                                                                │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  📚 API Documentation  : ${AnsiColor.BRIGHT_YELLOW}${server.servlet.context-path}/swagger-ui.html${AnsiColor.BRIGHT_BLUE}        │
+│  📊 API Docs (JSON)    : ${AnsiColor.BRIGHT_YELLOW}${server.servlet.context-path}/api-docs${AnsiColor.BRIGHT_BLUE}                │
+│  ❤️  Health Check       : ${AnsiColor.BRIGHT_YELLOW}${server.servlet.context-path}/actuator/health${AnsiColor.BRIGHT_BLUE}       │
+│  📈 Metrics            : ${AnsiColor.BRIGHT_YELLOW}${server.servlet.context-path}/actuator/metrics${AnsiColor.BRIGHT_BLUE}       │
+│  🔍 Prometheus         : ${AnsiColor.BRIGHT_YELLOW}${server.servlet.context-path}/actuator/prometheus${AnsiColor.BRIGHT_BLUE}    │
+└──────────────────────────────────────────────────────────────────────────────┘
+${AnsiColor.BRIGHT_CYAN}
+┌──────────────────────────────────────────────────────────────────────────────┐
+│  ${AnsiColor.BRIGHT_WHITE}TECHNOLOGY STACK${AnsiColor.BRIGHT_CYAN}                                                          │
+├──────────────────────────────────────────────────────────────────────────────┤
+│  ⚡ Spring Boot ${spring-boot.version}  │  🗄️  PostgreSQL 15+  │  🔄 Hibernate ORM       │
+│  🌐 Spring Web         │  📦 Spring Data JPA  │  🔐 Spring Security     │
+│  🎯 Spring AOP         │  📨 Spring Mail      │  ⏱️  Spring Scheduler   │
+│  🔧 Lombok             │  📋 MapStruct        │  📊 Actuator            │
+│  🔍 OpenAPI 3.0        │  🧪 JUnit 5          │  🎭 Mockito             │
+└──────────────────────────────────────────────────────────────────────────────┘
+${AnsiColor.BRIGHT_YELLOW}
+╔══════════════════════════════════════════════════════════════════════════════╗
+║                                                                              ║
+║    ${AnsiColor.BRIGHT_WHITE}🚀 APPLICATION STARTED SUCCESSFULLY${AnsiColor.BRIGHT_YELLOW}                                        ║
+║                                                                              ║
+║    ${AnsiColor.BRIGHT_GREEN}Ready to handle delivery requests and optimize logistics!${AnsiColor.BRIGHT_YELLOW}                ║
+║                                                                              ║
+╚══════════════════════════════════════════════════════════════════════════════╝
+${AnsiColor.DEFAULT}
