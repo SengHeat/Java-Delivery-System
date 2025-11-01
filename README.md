@@ -68,22 +68,22 @@ src/main/java/com/yourcompany/delivery/
 │   │       ├── DriverStatusChangedEvent.java
 │   │       └── DriverRatedEvent.java
 │   │
-│   ├── customer/
+│   ├── user/
 │   │   ├── model/
-│   │   │   ├── Customer.java (Aggregate Root)
-│   │   │   ├── CustomerId.java (Value Object)
-│   │   │   ├── CustomerProfile.java (Value Object)
+│   │   │   ├── User.java (Aggregate Root)
+│   │   │   ├── UserId.java (Value Object)
+│   │   │   ├── UserProfile.java (Value Object)
 │   │   │   ├── Address.java (Value Object)
 │   │   │   ├── PaymentMethod.java (Entity)
 │   │   │   ├── PaymentMethodId.java (Value Object)
-│   │   │   └── CustomerPreference.java (Value Object)
+│   │   │   └── UserPreference.java (Value Object)
 │   │   ├── repository/
-│   │   │   └── CustomerRepository.java
+│   │   │   └── UserRepository.java
 │   │   ├── service/
-│   │   │   └── CustomerDomainService.java
+│   │   │   └── UserDomainService.java
 │   │   └── event/
-│   │       ├── CustomerRegisteredEvent.java
-│   │       └── CustomerProfileUpdatedEvent.java
+│   │       ├── UserRegisteredEvent.java
+│   │       └── UserProfileUpdatedEvent.java
 │   │
 │   ├── payment/
 │   │   ├── model/
